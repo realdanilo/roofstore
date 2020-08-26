@@ -211,7 +211,7 @@ header {
   background-color: inherit;
   font-weight: 100;
   font-size: 30px;
-  color: rgb(252, 22, 22);
+  color: rgba(252, 22, 22, 0.829);
 }
 .customer-ratings .main-container {
   display: grid;
@@ -220,6 +220,7 @@ header {
   row-gap: 20px;
   column-gap: 40px;
   background-color: inherit;
+  max-width: 1000px;
   margin-bottom: 20px;
 }
 .customer-rating {
