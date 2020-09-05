@@ -51,9 +51,9 @@ ul.navbar-links {
   justify-content: space-between;
   align-items: center;
 }
-#contact-info{
-  transform:translate(0, 20px);
-  
+#contact-info li{
+  /* transform:translate(0, 20px); */
+  margin-top: 40px;
 }
 .navbar ul.navbar-links li {
   margin: 10px 10px;
@@ -92,8 +92,7 @@ ul li {
   .navbar ul.navbar-links li {
     margin: 0 10px;
   }
-  #contact-info{
-  transform:translate(0, 0);
-
+  #contact-info li{
+margin-top: 0;
   }
 }
