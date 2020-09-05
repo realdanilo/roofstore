@@ -27,6 +27,7 @@ button:focus {
 }
 .navbar {
   margin-top: 20px;
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
   margin: 20px 0;
@@ -49,6 +50,10 @@ ul.navbar-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+#contact-info{
+  transform:translate(0, 20px);
+  
 }
 .navbar ul.navbar-links li {
   margin: 10px 10px;
@@ -86,5 +91,9 @@ ul li {
   }
   .navbar ul.navbar-links li {
     margin: 0 10px;
+  }
+  #contact-info{
+  transform:translate(0, 0);
+
   }
 }
