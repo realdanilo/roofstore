@@ -34,7 +34,7 @@ header {
   column-gap: 30px;
   align-items: center;
   padding: 0 10px;
-  margin-top: 60px;
+  margin-top:100px;
 }
 
 .header-content h3 {
@@ -81,7 +81,7 @@ header {
 .header-picture img {
   border-radius: 3px;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
   header {
     display: grid;
     grid-template-columns: 1fr 1fr;

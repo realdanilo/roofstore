@@ -38,6 +38,7 @@ button:focus {
   justify-content: space-around;
 }
 .navbar .logo {
+  margin-top: 20px;
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 10px;
