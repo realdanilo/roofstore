@@ -41,7 +41,7 @@ button:focus {
   margin-top: 20px;
   font-size: 20px;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-transform: uppercase;
   border-bottom: 2px solid rgb(228, 15, 15);
 }
@@ -57,7 +57,7 @@ ul.navbar-links {
   padding-top: 20px;
 }
 .navbar ul.navbar-links li {
-  margin: 10px 10px;
+  margin: 15px 10px;
 }
 .navbar ul.navbar-links li a.active,
 .contact-phone-number {
