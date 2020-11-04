@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Danilo Mera</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/services.css" />
+</head>
+
+
+<body>
+  <div class="main-container">
+    <nav class="navbar">
+      <div class="logo">Roof Store</div>
+      <ul class="navbar-links">
+        <li><a  href="../index.html">Home</a></li>
+        <li><a class="active" href="./pages/services.html">Services</a></li>
+        <li><a href="./pages/about.html">About</a></li>
+        <li><a href="./pages/more.html">More</a></li>
+      </ul>
+      <ul id="contact-info">
+        <li class="contact-phone-number">602-431-1112</li>
+        <li class="contact-nav-button">Contact</li>
+      </ul>
+    </nav>
+    <!-- end navbar -->
+    <header>
+      <h4>Premier Pre-Engineered</h4>
+      <h1>Roof Manufacturing</h1>
+      <div class="roofs">
+        <div class="roof">
+          <p class="color-title">Better By</p>
+          <h6 class="title-header">Desing</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores adipisci qui non molestiae provident, porro, nisi veritatis at repellendus perferendis <a>Lean more</a></p>
+        </div>
+        <div class="roof">
+          <p class="color-title">Structural</p>
+          <h6 class="title-header">Integrity</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores adipisci qui non molestiae provident, porro, nisi veritatis at repellendus perferendis <a>Lean more</a></p>
+        </div>
+        <div class="roof">
+          <p class="color-title">Locally</p>
+          <h6 class="title-header">Crafted</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores adipisci qui non molestiae provident, porro, nisi veritatis at repellendus perferendis <a>Lean more</a></p>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+  </div>
+  <!-- end main container -->
+  <!-- pictures services -->
+    <div class="picture-services">
+      <div class="picture-frame">
+        
+        <img src="https://images.unsplash.com/photo-1587061633437-187ac80e8e7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="roof picture"/>
+      </div>
+      <div class="picture-frame">
+        
+        <img src="https://images.unsplash.com/photo-1528223871781-8f4c984f6164?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" alt="roof picture"/>
+      </div>
+      <div class="picture-frame">
+        
+        <img src="https://images.unsplash.com/photo-1508167290553-87a67eca5bf5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80" alt="roof picture"/>
+      </div>
+      <div class="picture-frame">
+        
+        <img src="https://images.unsplash.com/photo-1555002474-6244d85b4bfb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="roof picture"/>
+      </div>
+      <div class="picture-frame">
+        
+        <img src="https://images.unsplash.com/photo-1601658797840-08274a3ab809?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="roof picture"/>
+      </div>
+      <div class="picture-frame">
+        
+        <img src="https://images.unsplash.com/photo-1591774720289-b7e744cd5fdd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80" alt="roof picture"/>
+      </div>
+      <!-- end of picture services -->
+    </div>
+    <div class="projects-by-location">
+      <div class="location-title">
+        <h3>Projects By Location</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit tenetur molestias dolore totam?</p>
+      </div>
+      <div class="location-search">
+        <form id="form">
+          <input type="number" pattern="[0-9]*" max="99999" placeholder="Enter Zip"
+          autocomplete="false"/>
+          <button>Find</button>
+          <button class="location">Use Location</button>
+        </form>
+      </div>
+    </div>
+      <script>
+        let form = document.getElementById("form")
+        form.addEventListener("submit",(e)=>{
+          e.preventDefault()
+        })
+      </script>
+</body>
+
+</html>
